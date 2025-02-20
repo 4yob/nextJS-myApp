@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css';
 import Header from '../components/Header';
 import Card from '../components/Card';
+import Footer from '../components/Footer';
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
                 </aside>
             </section>
             </main>
+            <Footer />
         </div>
     );
 }
