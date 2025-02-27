@@ -44,3 +44,17 @@
         font-size: 1rem;
     }
 }
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .card {
+        gap: 0.5rem;
+    }
+
+    .title {
+        font-size: 1.1rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+}
