@@ -98,3 +98,35 @@
         width: 60%;
     }
 }
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .main {
+        padding: 2rem;
+    }
+
+    .block {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        gap: 0.5rem;
+    }
+
+    .article {
+        padding: 0.2rem;
+        width: 100%;
+        height: 35%;
+        gap: 1rem;
+    }
+
+    .aside {
+        height: 65%;
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+}

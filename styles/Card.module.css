@@ -58,3 +58,19 @@
         font-size: 1rem;
     }
 }
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .card {
+        width: 100%;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .title {
+        font-size: 1.1rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+}
