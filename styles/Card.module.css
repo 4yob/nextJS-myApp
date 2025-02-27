@@ -17,6 +17,20 @@
     padding: 0 1rem;
 }
 
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .card {
+        gap: 1rem;
+    }
+
+    .title {
+        font-size: 1.7rem;
+    }
+
+    .text {
+        font-size: 1.3rem;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .card {
         gap: 0.8rem;

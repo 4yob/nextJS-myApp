@@ -54,7 +54,12 @@
     }
 
     .article {
+        width: 56%;
         gap: 2rem;
+    }
+
+    .aside {
+        width: 44%;
     }
 }
 
