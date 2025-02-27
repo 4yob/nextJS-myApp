@@ -151,3 +151,29 @@
         gap: 1rem;
     }
 }
+
+@media (max-width: 320px) {
+    .main {
+        padding: 2rem 1rem;
+    }
+
+    .block {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        gap: 0.5rem;
+    }
+
+    .article {
+        padding: 0.2rem;
+        width: 100%;
+        height: 35%;
+        gap: 1rem;
+    }
+
+    .aside {
+        height: 65%;
+        width: 110%;
+    }
+}
