@@ -10,9 +10,9 @@ export default function Home() {
             <main className={styles.main}>
             <section className={styles.block}>
                 <article className={styles.article}>
-                    <Card />
-                    <Card />
-                    <Card />
+                    <Card title="Quadros de Elementos Marinhos" text="Kit de quadros de elementos do fundo do mar" />
+                    <Card title="Moldura e cores:" text="Branca de fundo azul"/>
+                    <Card title="Preço:" text="R$35.00"/>
                 </article>
                 <aside className={styles.aside}>
                     <img className={styles.image} src="https://i.pinimg.com/736x/58/50/17/5850179e4e5deef08ad5d250aef82a76.jpg"/>
